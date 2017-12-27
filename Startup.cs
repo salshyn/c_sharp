@@ -18,10 +18,13 @@ namespace c_sharp {
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         // Other code
         // Other code
-        public void Configure (IApplicationBuilder app) {
+        public void Configure (IApplicationBuilder app, ILoggerFactory LoggerFactory) {
             // Other Use statements
             app.UseStaticFiles();
             app.UseMvc (); // That's it!
+
+            LoggerFactory.AddConsole();
+            app.UseDeveloperExceptionPage();
         }
     }
 }
