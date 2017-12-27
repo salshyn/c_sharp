@@ -1,0 +1,8 @@
+/Users/sam.alshyn/Documents/Work/c_sharp/bin/Debug/netcoreapp1.1/c_sharp.deps.json
+/Users/sam.alshyn/Documents/Work/c_sharp/bin/Debug/netcoreapp1.1/c_sharp.runtimeconfig.json
+/Users/sam.alshyn/Documents/Work/c_sharp/bin/Debug/netcoreapp1.1/c_sharp.runtimeconfig.dev.json
+/Users/sam.alshyn/Documents/Work/c_sharp/bin/Debug/netcoreapp1.1/c_sharp.dll
+/Users/sam.alshyn/Documents/Work/c_sharp/bin/Debug/netcoreapp1.1/c_sharp.pdb
+/Users/sam.alshyn/Documents/Work/c_sharp/obj/Debug/netcoreapp1.1/c_sharp.AssemblyInfo.cs
+/Users/sam.alshyn/Documents/Work/c_sharp/obj/Debug/netcoreapp1.1/c_sharp.dll
+/Users/sam.alshyn/Documents/Work/c_sharp/obj/Debug/netcoreapp1.1/c_sharp.pdb
