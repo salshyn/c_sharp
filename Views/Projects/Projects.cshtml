@@ -5,10 +5,35 @@
         <title>Hello!</title>
         <!-- In this context '~' refers to the wwwroot folder -->
         <link rel="stylesheet" href="~/css/basic.css"/>
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+        
+        
     </head>
     <body>
         <a href="/">Home</a>
         <a href="/contact">Contact</a>
         <h1>Projects page</h1>
+
+        <hr>
+
+        <p id="area"></p>
+        <button id="but">Generate</button>
+        
+        <script>
+            $(document).ready(function(){
+                $("#but").click(function() {
+                // back-end request
+                    $.get("/user", function(response){
+                        // Handle the response data
+                        console.log(response.Variable);
+                        $("#area").empty();
+                        $("#area").append(response.Variable);
+                    })
+                })
+            })
+        </script>
     </body>
 </html>

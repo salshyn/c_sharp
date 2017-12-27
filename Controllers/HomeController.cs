@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+
+
 namespace YourNamespace.Controllers
 {
     public class HomeController : Controller
@@ -20,5 +22,7 @@ namespace YourNamespace.Controllers
             Console.WriteLine(textToPass);
             return View("Result");
         }
+
+        
     }
 }
